@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos al lado oscuro</title>
+</head>
+<body>
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+
+    <p>Soy una etiqueta p y aca van los parrafos</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quis obcaecati eum quos itaque voluptates sit ea repellendus ab, cupiditate accusamus suscipit possimus nostrum voluptate. Ea enim, ducimus libero exercitationem corrupti, eius iusto consequuntur, vel distinctio quaerat maxime quasi quidem?</p>
+
+    <p><strong>soy un parrafo en negrita</strong></p>
+    <p>soy un parrafo que usa br <br>
+    para hacer salto de linea</p>
+    <p><b>a Br lo vamos a usar solo mientras sepamos SOLO HTML</b></p>
+
+    <!-- Enlace e imagen -->
+
+    <a href="https://code.visualstudio.com/"
+    target="_blank">Soy un Enlace</a>
+    <br>
+    <p>Clickeá la imagen</p>
+    <a href="https://code.visualstudio.com/" target="_blank"> 
+        <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Lionel_Messi_20180626.jpg" 
+        alt="Messi"
+         />
+         </a>
+
+         <hr>
+
+         <h2>Lista desordenada</h2>
+
+         <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+         </ul>
+
+         <h2>Lista ordenada</h2>
+
+         <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+         </ol>
+
+         <h2>Lista anidada</h2>
+
+         <ol>
+            <li>
+                Soy un elemento de una lista ordenada y adentro tengo otra lista
+                <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                </ul>
+            </li>
+            <li>
+                Soy otro elemento de una lista ordenada y adentro tengo otra lista más
+                <ul>
+                    Yo tmb tengo una lista dentro
+                    <ol>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    </ol>
+                </ul>
+            </li>
+         </ol>
+
+         <h2>Tablas</h2>
+
+         <table>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>9 hs</td>
+                <td>8 hs</td>
+                <td>7 hs</td>
+                <td>6 hs</td>
+                <td>5 hs</td>
+            </tr>
+        </table>
+
+        <h2>Formularios</h2>
+        <!---Imput de tipo text-->
+
+        <label for="nombre"> Nombre: </label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre">
+        <br>
+        <br>
+        <label for="apellido"> Apellido:</label>
+        <input type="text" id="apellido" placeholder="Ingrese su apellido">
+        <br>
+        <br>
+        <label for="edad"> Edad:</label>
+        <input type="number" id="edad" placeholder="Ingrese su edad">
+        <br>
+        <br>
+        <label for="correo">Email</label>    
+        <input type="email" id="correo" placeholder="Ingrese su email">
+        <br>
+        <br>
+        <label for="pass">Contraseña </label>
+        <input type="password" id="pass" placeholder="Ingrese su contraseña" required>
+
+    <br>
+    <br>
+    <label for="checkbox1">soy un input de tipo checkbox</label>
+    <input type="checkbox" id="checkbox1">
+    <br>
+    <br>
+    <label for="checkbox2">soy otro input de tipo checkbox</label>
+    <input type="checkbox" id="checkbox2" checked>
+    <br>
+    <br>
+    Gusto de helado favorito: 
+    <label for="chocolate">Chocolate</label>
+    <input type="radio" id="chocolate" name="gustos">
+    <label for="dulce-de-leche">Dulce de Leche</label>
+    <input type="radio" id="dulce-de-leche" name="gustos">
+    <label for="menta-granizada">Menta granizada</label>
+    <input type="radio" id="menta-granizada" name="gustos">
+
+    <br><br>¿Jugamos?:
+
+    <select>
+        <option value="piedra">Piedra</option>
+        <option value="papel">Papel</option>
+        <option value="tijera">Tijera</option>
+    </select>
+
+    <br><br>
+    <label for="texto"> Soy un area de texto</label><br>
+    <textarea id="texto" cols="60" rows="10"></textarea>
+    <br>
+    <br>
+
+    <!--Botones-->
+
+    <input type="submit" value="Soy un boton"/>
+    <button type="submit"> Soy otro boton </button>
+</body>
+</html>
